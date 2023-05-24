@@ -23,10 +23,10 @@ const Nav = () => {
             <Link to="/add">Add Product</Link>
           </li>
           <li>
-            <Link to="/update">Update Products</Link>
+            <Link to="/update">Update Any Products</Link>
           </li>
           <li>
-            <Link to="/profile">Profile</Link>
+            <Link to="/profile">My Profile</Link>
           </li>
           <li>
             <Link onClick={logout} to="/signup">
